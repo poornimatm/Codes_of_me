@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Ls
+{
+public static void main(String[]args)
+{
+	Scanner in=new Scanner(System.in);
+	System.out.println("Enter the value of x");
+	int x=in.nextInt();
+	System.out.println("Enter the value of y");
+	int y=in.nextInt();
+	System.out.println("Enter the value of z");
+	int z=in.nextInt();
+	if(x>y)
+	{
+		System.out.println("x is greater");
+	}
+	else if(y>z)
+	{
+		System.out.println("y is greater");		
+	}
+	else
+	{
+		System.out.println("z is greater");
+	}
+}
+}
