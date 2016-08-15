@@ -16,6 +16,10 @@ import java.util.Scanner;
  +		{
  +			System.out.println("The number is odd");
  +		}
+  else if(n==(-n))
+  {
+   System.out.println("It is a negativve integer")
+  }
  +		
  +	}
  +
